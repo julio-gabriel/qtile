@@ -91,15 +91,14 @@ keys = [
 #           Group("GFX", layout='floating')]
 
 groups = [
-    Group("WWW",label="Web",layout="monadtall",position=1,spawn="opera"),
-    Group("DISC",label="Discord",layout="monadtall",position=2,spawn="apulse /home/jg/Install/Discord/Discord"),
-    Group("TERM",label="st",layout="column",position=3),
-    Group("TERM",label="st",layout="column",position=4),
-    Group("MAIL",label="email",layout="column",position=5,spawn="thunderbird"),
-    Group("DEV",position=6),
-    Group("MUS",position=7),
-    Group("DEV",position=8),
-    Group("MTI",position=9),
+    Group("WWW",label="1-Web",layout="column",position=1,spawn="opera"),
+    Group("DISC",label="2-Discord",layout="column",position=2,spawn="apulse /home/jg/Install/Discord/Discord"),
+    Group("TERM",label="3-st",layout="column",position=3),
+    Group("MAIL",label="4-email",layout="column",position=4,spawn="thunderbird"),
+    Group("DEV",label="5-dev",position=6),
+    Group("MUS",label="6-music",position=7),
+    Group("KEP",label="7-keepass",position=8),
+    Group("MTI",label="8-mti",position=9),
     # Group("c", matches=[Match(title=["opera"])]),
 ]
 
